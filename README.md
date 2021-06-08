@@ -1,4 +1,6 @@
 # MMM-ShairportMetadata
+Try to include a better lyrics display
+
 A module to integrate AirPlay metadata coming via <a href="https://github.com/mikebrady/shairport-sync">`shairport-sync`</a> into the <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a>. This plugin does not work with video streaming or screen mirroring.
 
 ## Preview
