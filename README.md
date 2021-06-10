@@ -1,12 +1,12 @@
 # MMM-ShairportMetadata
-Try to include a better lyrics display
+This is a stripped-down version forked from [`surekap`](https://github.com/surekap/MMM-ShairportMetadata). This metadata module would be a drop-in replacement for the default `compliment` module. For apps (e.g. [netease music](https://music.163.com/), [qq music](https://y.qq.com/), et al.) that support outputing lyrics to the title field of the metadata. 
 
 A module to integrate AirPlay metadata coming via <a href="https://github.com/mikebrady/shairport-sync">`shairport-sync`</a> into the <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a>. This plugin does not work with video streaming or screen mirroring.
 
 ## Preview
-![preview](preview.jpg)
+This module replaces the default `compliment` module to display lyrics (requires supported apps) for music fans! 
 
-This version finally includes a progress bar!
+![preview](preview.png)
 
 ## Using the module
 Add `MMM-ShairportMetadata` module to the `modules` array in the `config/config.js` file:
@@ -14,8 +14,7 @@ Add `MMM-ShairportMetadata` module to the `modules` array in the `config/config.
 modules: [
   {
     module: 'MMM-ShairportMetadata',
-    position: 'bottom_left',
-    header: 'Now playing',
+    position: 'middle_center',
     config: {
       metadataPipe: "/tmp/shairport-sync-metadata", // location of pipe with shairport-sync metadata
 	  alignment: "center",	// Possible values [left|right|center]. Default: center

@@ -6,7 +6,7 @@
  * By Prateek Sureka <surekap@gmail.com>
  * MIT Licensed.
  *
- * Forked by DrEthanol
+ * Forked by ytzeng1
  * A drop-in replacement for compliment module
  * For supported music players, lyrics would be displayed
  */
