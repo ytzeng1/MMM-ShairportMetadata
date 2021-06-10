@@ -1,5 +1,5 @@
 # MMM-ShairportMetadata
-This is a stripped-down version forked from [`surekap`](https://github.com/surekap/MMM-ShairportMetadata). This metadata module would be a drop-in replacement for the default `compliment` module. For apps (e.g. [netease music](https://music.163.com/), [qq music](https://y.qq.com/), et al.) that support outputing lyrics to the title field of the metadata. 
+This is a stripped-down version forked from [`surekap`](https://github.com/surekap/MMM-ShairportMetadata). This metadata module would be a drop-in replacement for the default `compliment` module. It can also display lyrics for apps (e.g. [netease music](https://music.163.com/), [qq music](https://y.qq.com/), et al.) that support outputing lyrics to the title field of the metadata.
 
 A module to integrate AirPlay metadata coming via <a href="https://github.com/mikebrady/shairport-sync">`shairport-sync`</a> into the <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a>. This plugin does not work with video streaming or screen mirroring.
 
